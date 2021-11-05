@@ -8,6 +8,90 @@ body {
   margin: 0;
 }
 
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  margin-top: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+  border-radius: 20px;
+  color: #3e3e3e;
+}
+
+.card:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+}
+
+.card .A101 {
+  background-color: #444444;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card .A102 {
+  background-color: #1b447f;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card .A103 {
+  background-color: #03a3df;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.card .price {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.card .grey-register {
+  background-color: #eee;
+  font-size: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.button {
+  background-color: #ecb722;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .header {
   background-color: #03a3df;
   padding-bottom: 50px;
