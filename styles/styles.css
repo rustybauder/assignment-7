@@ -81,6 +81,7 @@ body {
 }
 .video {
   float: left;
+  border: 0;
 }
 .col {
     float: left;
