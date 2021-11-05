@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: white;
+  margin: 0;
+}
+
+.header {
+  background-color: #03a3df;
+  padding-bottom: 200px;
+  color: white;
+}
+.footer {
+  background-image: url('../images/footerImage.jpg');
+  margin: 0px;
+  background-size: cover;
+  height: 500px;
+}
+.footer-logo {
+  float: right;
+  padding: 5px;
+}
+.logo {
+  padding: 20px;
+}
+.navbar {
+  overflow: hidden;
+  padding: 20px;
+}
+.footer p {
+  color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+.footer h2 {
+  color: white;
+  margin-left: 5px;
+}
+.footer h3 {
+  color: white;
+  margin-left: 5px;
+}
+.navbar a {
+  float: right;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+.text {
+  font-size: 16px;
+  float: left;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+}
+.video {
+  float: left;
+}
+.col {
+    float: left;
+    padding: 5px;
+}
+.bio {
+    float: left;
+    padding: 50px;
+}
+.header_h2 {
+  float: right;
+  padding: 1px;
+  margin: 5px;
+}
+.header_h3 {
+  float: right;
+  padding: 1px;
+  margin: 5px;
+}
+.subtext {
+  float: right;
+  padding: 1px;
+  margin: 5px;
+}
+.cta {
+  float: right;
+  padding: 5px;
+  margin: 20px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.subheader {
+  text-align: center;
+}
+.section_header {
+  float: left;
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+}
+.span_1_of_12 {
+  width: 8.33%;
+}
+
+.span_2_of_12 {
+  width: 16.66%;
+}
+
+.span_3_of_12 {
+  width: 25%;
+}
+
+.span_4_of_12 {
+  width: 33.33%;
+}
+
+.span_5_of_12 {
+  width: 41.66%;
+}
+
+.span_6_of_12 {
+  width: 50%;
+}
+
+.span_7_of_12 {
+  width: 58.33%;
+}
+
+.span_8_of_12 {
+  width: 66.66%;
+}
+
+.span_9_of_12 {
+  width: 75%;
+}
+
+.span_10_of_12 {
+  width: 83.33%;
+}
+
+.span_11_of_12 {
+  width: 91.66%;
+}
+
+.span_12_of_12 {
+  width: 100%;
+}
