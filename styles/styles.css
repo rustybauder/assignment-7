@@ -68,8 +68,11 @@ body {
 .card .price {
   background-color: #eee;
   font-size: 20px;
+  font-weight: bold;
 }
-
+.card .schedule {
+  font-weight: bold;
+}
 .card .grey-register {
   background-color: #eee;
   font-size: 20px;
@@ -121,6 +124,28 @@ body {
   overflow: hidden;
   padding: 20px;
 }
+.navbar a {
+  float: right;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 16px;
+  padding: 5px;
+  text-decoration: none;
+}
+.navbar a.active {
+  background-color: #1b447f;
+  border-radius: 5px;
+  color: white;
+}
+.navbar a:hover {
+  background-color: #ecb722;
+  border-radius: 5px;
+  color: black;
+}
 .footer p {
   color: white;
   margin-top: 5px;
@@ -146,23 +171,17 @@ body {
 .policy {
   font-size: 14px;
 }
-.navbar a {
-  float: right;
-  display: block;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 30px 16px;
-  text-decoration: none;
-}
+
 .text {
   font-size: 16px;
   float: left;
   padding-left: 100px;
   padding-right: 100px;
   text-align: justify;
+}
+.text p {
+  margin-top: 0px;
+  margin-bottom: 24px;
 }
 .video {
   float: left;
@@ -192,6 +211,34 @@ body {
   margin-right: 0;
   margin-left: 0;
 }
+input[type="submit"] {
+  background-color: #ecb722;
+  text-align: center;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+textarea {
+  width: 100%;
+  font-family: Arial;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
 .rates-header {
   float: left;
   padding-left: 20px;
@@ -202,7 +249,15 @@ body {
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 48px;
-  padding-top: 50px;
+  padding-top: 310px;
+}
+.rates-header h3 {
+  font-size: 30px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.rates-header p {
+  font-size: 20px;
 }
 .bio {
     float: left;
@@ -267,6 +322,14 @@ body {
   text-align: center;
   padding: 40px;
   font-size: 30px;
+}
+.section-header-rates {
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 0;
+  font-size: 30px;
+  margin-bottom: 0;
 }
 .span_1_of_12 {
   width: 8.33%;

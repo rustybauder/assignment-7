@@ -6,8 +6,6 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
 <body>
-  <section>
-    <header>
       <header class="header">
         <div class="row">
           <div class="col span_4_of_12">
@@ -18,7 +16,7 @@
               <a href="#about">About us</a>
               <a href="#location">Location</a>
               <a href="#instructors">Our Instructors</a>
-              <a href="rates.html">Rates</a>
+              <a class="active" href="rates.html">Rates</a>
               <a href="index.html">Home</a>
             </nav>
           </div>
@@ -37,22 +35,24 @@
       <input type="text" id="fname" name="fname" value="John"><br>
       <label for="lname">Last name:</label><br>
       <input type="text" id="lname" name="lname" value="Doe"><br>
-      <label for="message">Message:</label><br>
-      <input type="text" id="message" name="message" value="Message"><br>
       <label for="email">Email:</label><br>
       <input type="text" id="email" name="email" value="email@email.com"><br>
+    </form>
+    <label for="message">Message:</label><br>
+    <textarea id="message" rows="4" cols="50" name="comment">
+Enter message here...</textarea>
+    <form>
       <input type="checkbox" id="checkbox">
       <label for="checkbox">Select this box if you wish to receive marketing communications from Archery Academy</label><br>
-      <input type="submit">
+      <input type="submit" value="SUBMIT">
     </form>
   </div>
   </div>
 </div>
-  </header
-  </section>
+</header>
   <section>
     <div class="row">
-    <h2 class="section-header span_12_of_12">Classes</h2>
+    <h2 class="section-header-rates span_12_of_12">Classes</h2>
   </div>
     <div class="row">
     <div class="rows">
@@ -61,8 +61,8 @@
           <li class="A101">A101 Basic Archery</li>
           <li class="price">$120 per month</li>
           <li class="schedule">Mon, Wed, 4-5pm</li>
-          <li>Prerequisite:<br>Interest in learning about the sport of archery. Minimum age  8 years old or 7 w/ pre-evaluation.</li>
-          <li>Description:<br>A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.</li>
+          <li><b>Prerequisite:</b><br>Interest in learning about the sport of archery. Minimum age  8 years old or 7 w/ pre-evaluation.</li>
+          <li><b>Description:</b><br>A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.<br><br><br></li>
           <li>Equipment will be provided with exception of safety kit.</li>
           <li class="grey-register"><a href="#" class="button">Sign Up</a></li>
         </ul>
@@ -72,8 +72,8 @@
           <li class="A102">A102 Intermediate Archery</li>
           <li class="price">$120 per month</li>
           <li class="schedule">Tue, Thurs, 4-5pm</li>
-          <li>Prerequisite:<br>A101 or recommendation from private lesson instructor. Minimum age  7 years old.</li>
-          <li>Description:<br>A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.</li>
+          <li><b>Prerequisite:</b><br>A101 or recommendation from private lesson instructor. Minimum age  7 years old.</li>
+          <li><b>Description:</b><br>A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.<br><br><br></li>
           <li>Equipment will be provided with exception of safety kit.</li>
           <li class="grey-register"><a href="#" class="button">Sign Up</a></li>
         </ul>
@@ -83,8 +83,8 @@
           <li class="A103">A103 Advanced Archery</li>
           <li class="price">$120 per month</li>
           <li class="schedule">Tue, Thurs, 5-6pm</li>
-          <li>Prerequisite:<br>A101/A102 or equivalent. Minimum age  7 years old.</li>
-          <li>Description:<br>After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.</li>
+          <li><b>Prerequisite:</b><br>A101/A102 or equivalent. Minimum age  7 years old.</li>
+          <li><b>Description:</b><br>After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.</li>
           <li>Equipment will be provided with exception of safety kit.</li>
           <li class="grey-register"><a href="#" class="button">Sign Up</a></li>
         </ul>
@@ -92,14 +92,14 @@
     </div>
   </div>
   <div class="row">
-    <h2 class="section-header span_12_of_12">Private Lessons</h2>
+    <h2 class="section-header-rates span_12_of_12">Private Lessons</h2>
   </div>
     <div class="rows">
       <div class="columns col span_4_of_12">
         <ul class="card">
           <li class="A101">Single Lesson</li>
           <li class="price">$50</li>
-          <li>Description:<br>1 hour of expert guidance by a USA Archery-certified coach</li>
+          <li><b>Description:</b><br>1 hour of expert guidance by a USA Archery-certified coach</li>
           <li class="grey-register"><a href="#" class="button">Add To Cart</a></li>
         </ul>
       </div>
@@ -107,7 +107,7 @@
         <ul class="card">
           <li class="A102">3 Lesson Package</li>
           <li class="price">$140</li>
-          <li>Description:<br>3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</li>
+          <li><b>Description:</b><br>3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</li>
           <li class="grey-register"><a href="#" class="button">Add To Cart</a></li>
         </ul>
       </div>
@@ -115,7 +115,7 @@
         <ul class="card">
           <li class="A103">10 Lesson Package</li>
           <li class="price">$380</li>
-          <li>Description:<br>10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</li>
+          <li><b>Description:</b><br>10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach</li>
           <li class="grey-register"><a href="#" class="button">Add To Cart</a></li>
         </ul>
       </div>
