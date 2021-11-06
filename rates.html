@@ -7,6 +7,7 @@
   </head>
 <body>
       <header class="header">
+        <a href="#main-content" class="hidden" tabindex="1">Skip to main content</a>
         <div class="row">
           <div class="col span_4_of_12">
             <img class="logo" src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo White">
@@ -21,7 +22,7 @@
             </nav>
           </div>
       </div>
-    <div class="row">
+    <div  id="main-content" class="row">
       <div class="rates-header span_8_of_12">
     <h2>HEADER</h2>
     <h3>SUBHEADER</h3>
@@ -36,12 +37,10 @@
       <label for="lname">Last name:</label><br>
       <input type="text" id="lname" name="lname" value="Doe"><br>
       <label for="email">Email:</label><br>
-      <input type="text" id="email" name="email" value="email@email.com"><br>
-    </form>
+      <input type="email" id="email" name="email" value="Enter Email"><br>
     <label for="message">Message:</label><br>
     <textarea id="message" rows="4" cols="50" name="comment">
 Enter message here...</textarea>
-    <form>
       <input type="checkbox" id="checkbox">
       <label for="checkbox">Select this box if you wish to receive marketing communications from Archery Academy</label><br>
       <input type="submit" value="SUBMIT">
@@ -126,7 +125,7 @@ Enter message here...</textarea>
       <div class="col span_4_of_12">
         <h2>Straight to the Point Archery</h2>
       <p>528 Nock Point Ln<br>Tacoma, WA 98412</p>
-      <p>archery-education@example.com<br>(253) 555-1010</p>
+      <p><span class="sr-only">this link opens an email form to email Straight to the Point Archery</span><a class="email" href="mailto:archery-education@example.com">archery-education@example.com</a><br>(253) 555-1010</p>
     </div>
     <div class="col span_8_of_12">
     <img class="footer-logo" src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo White">
