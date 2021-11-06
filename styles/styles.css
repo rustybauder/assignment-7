@@ -172,14 +172,14 @@ body {
   text-decoration: none;
 }
 .navbar a.active {
-  background-color: #1b447f;
-  border-radius: 5px;
-  color: white;
-}
-.navbar a:hover {
   background-color: #ecb722;
   border-radius: 5px;
   color: black;
+}
+.navbar a:hover {
+  background-color: #1b447f;
+  border-radius: 5px;
+  color: white;
 }
 .footer p {
   color: white;
